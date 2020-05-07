@@ -31,7 +31,7 @@
                             this.scoreCard();
                             }
                             else{
-                                quizBox.innerHTML = "Do you want to play more? Kindly reload the page"
+                                quizBox.innerHTML = "Game Over... Kindly reload the page to play more"
                                 op1.style.display = "none";
                                 op2.style.display = "none";
                                 op3.style.display = "none";
@@ -68,16 +68,12 @@
                                 ul.children[i].className = ''
                         }
                     },
-                    
-                    
                     score:0,
                     scoreCard:function(){
                         scoreCard.innerHTML = this.score+"/"+this.questions.length;
                     }        
         }
-
         window.onload = app.load(); 
-
         function button(ele){
                 app.check(ele);
                 app.notClickAble();
