@@ -10,7 +10,7 @@
 
         var app={
                    questions:[
-                            {q:'Who was the best player in 2002 fifa world cup?',options:['Oliver-Khan','Delima Ronaldo','Zinedine Zidane','Roberto Carlos'],answer:2},
+                            {q:'Who was the best player in 2002 fifa world cup?',options:['Oliver Khan','Delima Ronaldo','Zinedine Zidane','Roberto Carlos'],answer:2},
 
                             {q:'what is the name of the capital city of lesotho?',options:['Maseru','Leribe','Mafeteng','Teyateyaneng'],answer:1},
 
